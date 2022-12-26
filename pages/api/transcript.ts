@@ -17,7 +17,7 @@ type ResData = {
   journal: string;
 };
 
-const promptStart = `The passage below is a user's brain dump of their thoughts, stresses, and things they want to get done. I want you to create a JSON object beginning only with { with 2 keys, "tasks": a bullet point list of actionable deduplicated tasks and "journal": a brief journal entry of their emotional thoughts. Include tips for how to resolve their problems.\n\nPASSAGE BEGINS\n\n`;
+const promptStart = `The passage below is a user's brain dump of their thoughts, stresses, and things they want to get done. I want you to create a JSON object beginning only with { with 2 keys, "tasks": a bullet point list of actionable deduplicated tasks the user mentions and "journal": a brief journal entry of their emotional thoughts. Include tips for how to resolve their problems.\n\nPASSAGE BEGINS\n\n`;
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
