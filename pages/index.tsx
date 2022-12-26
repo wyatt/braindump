@@ -189,7 +189,7 @@ const Index = () => {
             </Button>
           </Flex>
 
-          <VStack pt={4} spacing={4}>
+          <VStack pt={4} spacing={4} maxW={"container.xl"}>
             {loading && (
               <HStack>
                 <Spinner />
