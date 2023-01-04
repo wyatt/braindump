@@ -148,7 +148,7 @@ const Index = () => {
               >
                 Braimdump
               </Link>{" "}
-              tool, to help relieve stress. It will generate a todo list and a
+              tool, to help relieve stress. It will generate a to-do list and a
               helpful journal entry based on what you say.
             </Text>
           </VStack>
